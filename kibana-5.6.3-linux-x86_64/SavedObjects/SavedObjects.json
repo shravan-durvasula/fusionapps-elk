@@ -1,0 +1,905 @@
+[
+  {
+    "_id": "AXLo6WQq71c5MW-U3CX-",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Data Security",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"columns\":[\"LogMessage\",\"type\"],\"id\":\"AXLo6JkQ71c5MW-U3CX8\",\"panelIndex\":1,\"row\":4,\"size_x\":6,\"size_y\":3,\"sort\":[\"@timestamp\",\"desc\"],\"type\":\"search\"},{\"col\":7,\"columns\":[\"_source\"],\"id\":\"AXLo7Exm71c5MW-U3CYF\",\"panelIndex\":2,\"row\":4,\"size_x\":6,\"size_y\":3,\"sort\":[\"@timestamp\",\"desc\"],\"type\":\"search\"},{\"col\":1,\"id\":\"AXMrzOAU71c5MW-U3ZQx\",\"panelIndex\":3,\"row\":1,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"size_x\":6,\"size_y\":3,\"panelIndex\":4,\"type\":\"visualization\",\"id\":\"AXMr0QLa71c5MW-U3ZQ5\",\"col\":7,\"row\":1}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{\"P-4\":{\"vis\":{\"defaultColors\":{\"0 - 100\":\"rgb(0,104,55)\"}}}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"match_all\":{}}}],\"highlightAll\":true,\"version\":true}"
+      }
+    }
+  },
+  {
+    "_id": "AXLjq_ea71c5MW-U2_mq",
+    "_type": "dashboard",
+    "_source": {
+      "title": "URP",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"AXLnKNaF71c5MW-U3B0R\",\"panelIndex\":5,\"row\":1,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"AXLnzCT-71c5MW-U3B4n\",\"panelIndex\":6,\"row\":4,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"AXLn0rZl71c5MW-U3B4x\",\"panelIndex\":7,\"row\":7,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"AXL2rvS571c5MW-U3MY3\",\"panelIndex\":10,\"row\":4,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"AXL2wPqt71c5MW-U3MZe\",\"panelIndex\":11,\"row\":1,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"AXL2wbn171c5MW-U3MZg\",\"panelIndex\":12,\"row\":7,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"columns\":[\"MessageType\",\"LogMessage\",\"userId\",\"type\"],\"id\":\"AXLjgZGG71c5MW-U2_gk\",\"panelIndex\":13,\"row\":16,\"size_x\":6,\"size_y\":3,\"sort\":[\"@timestamp\",\"desc\"],\"type\":\"search\"},{\"col\":7,\"columns\":[\"userId\",\"LogMessage\",\"type\"],\"id\":\"AXLo5jRf71c5MW-U3CX3\",\"panelIndex\":14,\"row\":13,\"size_x\":6,\"size_y\":3,\"sort\":[\"@timestamp\",\"desc\"],\"type\":\"search\"},{\"col\":7,\"columns\":[\"MessageType\",\"userId\",\"LogMessage\",\"type\"],\"id\":\"AXLjhvPT71c5MW-U2_gz\",\"panelIndex\":15,\"row\":16,\"size_x\":6,\"size_y\":3,\"sort\":[\"@timestamp\",\"desc\"],\"type\":\"search\"},{\"col\":1,\"id\":\"AXMK1NAy71c5MW-U3St3\",\"panelIndex\":17,\"row\":10,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"AXMK2iUv71c5MW-U3SuA\",\"panelIndex\":18,\"row\":10,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"size_x\":6,\"size_y\":3,\"panelIndex\":19,\"type\":\"search\",\"id\":\"AXMKwmaf71c5MW-U3SlJ\",\"col\":1,\"row\":13,\"columns\":[\"LogMessage\",\"APP\",\"type\"],\"sort\":[\"@timestamp\",\"desc\"]}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{\"P-10\":{\"vis\":{\"defaultColors\":{\"0 - 100\":\"rgb(0,104,55)\"}}},\"P-11\":{\"vis\":{\"defaultColors\":{\"0 - 100\":\"rgb(0,104,55)\"}}},\"P-12\":{\"vis\":{\"defaultColors\":{\"0 - 100\":\"rgb(0,104,55)\"}}},\"P-18\":{\"vis\":{\"defaultColors\":{\"0 - 100\":\"rgb(0,104,55)\"}}}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"match_all\":{}}}],\"highlightAll\":true,\"version\":true}"
+      }
+    }
+  },
+  {
+    "_id": "AXLn_2tg71c5MW-U3B6B",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Environment",
+      "hits": 0,
+      "description": "ReArch env wide information",
+      "panelsJSON": "[{\"col\":1,\"id\":\"AXLpcDMH71c5MW-U3Cbs\",\"panelIndex\":3,\"row\":1,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"AXLsBvQI71c5MW-U3DSi\",\"panelIndex\":4,\"row\":1,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"AXLsEbRS71c5MW-U3DS0\",\"panelIndex\":5,\"row\":4,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"AXLsEnVq71c5MW-U3DS2\",\"panelIndex\":6,\"row\":4,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"AXLsFvmP71c5MW-U3DTG\",\"panelIndex\":7,\"row\":7,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"AXLsF82B71c5MW-U3DTR\",\"panelIndex\":8,\"row\":7,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"AXMwN57-71c5MW-U3aSa\",\"panelIndex\":9,\"row\":10,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"AXMwOvQV71c5MW-U3aSn\",\"panelIndex\":10,\"row\":10,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"columns\":[\"userId\",\"LogMessage\",\"type\"],\"id\":\"AXLnsQ0Y71c5MW-U3B3x\",\"panelIndex\":11,\"row\":13,\"size_x\":6,\"size_y\":3,\"sort\":[\"@timestamp\",\"desc\"],\"type\":\"search\"},{\"col\":1,\"columns\":[\"cs_method\",\"cs_uri\",\"HTTPResponseCode\",\"time_taken\",\"type\"],\"id\":\"AXLmw_f871c5MW-U3Bxh\",\"panelIndex\":13,\"row\":16,\"size_x\":6,\"size_y\":3,\"sort\":[\"@timestamp\",\"desc\"],\"type\":\"search\"},{\"col\":7,\"columns\":[\"LogMessage\",\"type\"],\"id\":\"AXLnp-ku71c5MW-U3B3h\",\"panelIndex\":14,\"row\":16,\"size_x\":6,\"size_y\":3,\"sort\":[\"@timestamp\",\"desc\"],\"type\":\"search\"},{\"size_x\":6,\"size_y\":3,\"panelIndex\":15,\"type\":\"search\",\"id\":\"AXL4JI2L71c5MW-U3Mix\",\"col\":1,\"row\":13,\"columns\":[\"LogMessage\",\"userId\",\"type\"],\"sort\":[\"@timestamp\",\"desc\"]},{\"size_x\":6,\"size_y\":3,\"panelIndex\":16,\"type\":\"search\",\"id\":\"AXObENjO71c5MW-U5r3A\",\"col\":1,\"row\":19,\"columns\":[\"cs_uri\",\"LogMessage\",\"type\"],\"sort\":[\"@timestamp\",\"desc\"]}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"match_all\":{}}}],\"highlightAll\":true,\"version\":true}"
+      }
+    }
+  },
+  {
+    "_id": "AXLjgZGG71c5MW-U2_gk",
+    "_type": "search",
+    "_source": {
+      "title": "IdentityIntegrationPlatformException",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "MessageType",
+        "LogMessage",
+        "userId",
+        "type"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"AXLhq9_b71c5MW-U28Bw\",\"highlightAll\":true,\"version\":true,\"query\":{\"query_string\":{\"query\":\"message:*IdentityIntegration*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AXLjhvPT71c5MW-U2_gz",
+    "_type": "search",
+    "_source": {
+      "title": "afterCommit",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "MessageType",
+        "userId",
+        "LogMessage",
+        "type"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"AXLhq9_b71c5MW-U28Bw\",\"highlightAll\":true,\"version\":true,\"query\":{\"query_string\":{\"query\":\"message: *afterCommit*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AXLjizUY71c5MW-U2_hI",
+    "_type": "search",
+    "_source": {
+      "title": "REST - UserAccounts",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "cs_method",
+        "cs_uri",
+        "HTTPResponseCode",
+        "time_taken",
+        "ProxyClientIP",
+        "type"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\n  \"index\": \"AXLhq9_b71c5MW-U28Bw\",\n  \"highlightAll\": true,\n  \"version\": true,\n  \"query\": {\n    \"query_string\": {\n      \"query\": \"type:ServiceServer*access* AND cs_uri:*userAccounts*\",\n      \"analyze_wildcard\": true\n    }\n  },\n  \"filter\": []\n}"
+      }
+    }
+  },
+  {
+    "_id": "AXLhwRyb71c5MW-U28B4",
+    "_type": "search",
+    "_source": {
+      "title": "REST - SCIM",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "cs_method",
+        "cs_uri",
+        "HTTPResponseCode",
+        "time_taken",
+        "ProxyClientIP",
+        "type"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\n  \"index\": \"AXLhq9_b71c5MW-U28Bw\",\n  \"highlightAll\": true,\n  \"version\": true,\n  \"query\": {\n    \"query_string\": {\n      \"query\": \"type:ServiceServer*access* AND cs_uri:*scim*\",\n      \"analyze_wildcard\": true\n    }\n  },\n  \"filter\": []\n}"
+      }
+    }
+  },
+  {
+    "_id": "AXLmw_f871c5MW-U3Bxh",
+    "_type": "search",
+    "_source": {
+      "title": "View All - Access",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "cs_method",
+        "cs_uri",
+        "HTTPResponseCode",
+        "time_taken",
+        "type"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"AXLhq9_b71c5MW-U28Bw\",\"highlightAll\":true,\"version\":true,\"query\":{\"query_string\":{\"query\":\"type: *access*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AXLnsQ0Y71c5MW-U3B3x",
+    "_type": "search",
+    "_source": {
+      "title": "View All - Incident Errors",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "userId",
+        "LogMessage",
+        "type"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"AXLhq9_b71c5MW-U28Bw\",\"highlightAll\":true,\"version\":true,\"query\":{\"query_string\":{\"query\":\"message:*incident_error*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AXLnp-ku71c5MW-U3B3h",
+    "_type": "search",
+    "_source": {
+      "title": "View All - Diagnostic",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "LogMessage",
+        "type"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"AXLhq9_b71c5MW-U28Bw\",\"highlightAll\":true,\"version\":true,\"query\":{\"query_string\":{\"query\":\"type:*diag*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AXLhvBzF71c5MW-U28B3",
+    "_type": "search",
+    "_source": {
+      "title": "REST - All of HCM",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "cs_method",
+        "cs_uri",
+        "HTTPResponseCode",
+        "time_taken",
+        "ProxyClientIP",
+        "type"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\n  \"index\": \"AXLhq9_b71c5MW-U28Bw\",\n  \"highlightAll\": true,\n  \"version\": true,\n  \"query\": {\n    \"query_string\": {\n      \"query\": \"type:ServiceServer*access* AND cs_uri:*hcmRestApi*\",\n      \"analyze_wildcard\": true\n    }\n  },\n  \"filter\": []\n}"
+      }
+    }
+  },
+  {
+    "_id": "AXLhtTdZ71c5MW-U28B2",
+    "_type": "search",
+    "_source": {
+      "title": "SOAP - All of HCM",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "cs_method",
+        "cs_uri",
+        "HTTPResponseCode",
+        "time_taken",
+        "type"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\n  \"index\": \"AXLhq9_b71c5MW-U28Bw\",\n  \"highlightAll\": true,\n  \"version\": true,\n  \"query\": {\n    \"query_string\": {\n      \"query\": \"type:ServiceServer*access* AND cs_uri:*hcmService*\",\n      \"analyze_wildcard\": true\n    }\n  },\n  \"filter\": []\n}"
+      }
+    }
+  },
+  {
+    "_id": "AXLn0Jwm71c5MW-U3B4u",
+    "_type": "search",
+    "_source": {
+      "title": "REST - userAccountsLOV",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "cs_method",
+        "cs_uri",
+        "HTTPResponseCode",
+        "time_taken",
+        "type"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"AXLhq9_b71c5MW-U28Bw\",\"highlightAll\":true,\"version\":true,\"query\":{\"query_string\":{\"query\":\"type:ServiceServer*access* AND cs_uri:*userAccountsLOV*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AXLo5jRf71c5MW-U3CX3",
+    "_type": "search",
+    "_source": {
+      "title": "Messages containing \"people roles\"",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "userId",
+        "LogMessage",
+        "type"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"AXLhq9_b71c5MW-U28Bw\",\"highlightAll\":true,\"version\":true,\"query\":{\"query_string\":{\"query\":\"message: *people*roles*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AXLo6JkQ71c5MW-U3CX8",
+    "_type": "search",
+    "_source": {
+      "title": "Messages containing \"HcmUsersAclComposite\"",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "LogMessage",
+        "type"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"AXLhq9_b71c5MW-U28Bw\",\"highlightAll\":true,\"version\":true,\"query\":{\"query_string\":{\"query\":\"message: *HcmUsersAclComposite*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AXLo7Exm71c5MW-U3CYF",
+    "_type": "search",
+    "_source": {
+      "title": "Messages containing \"Hcm Security\"",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"AXLhq9_b71c5MW-U28Bw\",\"highlightAll\":true,\"version\":true,\"query\":{\"query_string\":{\"query\":\"message: *hcm*security*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AXLpblXC71c5MW-U3Cbp",
+    "_type": "search",
+    "_source": {
+      "title": "View All - Access - ServiceServer",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "cs_method",
+        "cs_uri",
+        "HTTPResponseCode",
+        "time_taken",
+        "type"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"AXLhq9_b71c5MW-U28Bw\",\"highlightAll\":true,\"version\":true,\"query\":{\"query_string\":{\"query\":\"type: ServiceServer*access*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AXLsFTgV71c5MW-U3DS7",
+    "_type": "search",
+    "_source": {
+      "title": "View All - Access - ESS_SOAServer",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "cs_method",
+        "cs_uri",
+        "HTTPResponseCode",
+        "time_taken",
+        "type"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"AXLhq9_b71c5MW-U28Bw\",\"highlightAll\":true,\"version\":true,\"query\":{\"query_string\":{\"query\":\"type: ESS*access*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AXLsDo3U71c5MW-U3DSt",
+    "_type": "search",
+    "_source": {
+      "title": "View All - Access - UIServer",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "cs_method",
+        "cs_uri",
+        "HTTPResponseCode",
+        "time_taken",
+        "type"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"AXLhq9_b71c5MW-U28Bw\",\"highlightAll\":true,\"version\":true,\"query\":{\"query_string\":{\"query\":\"type: UIServer*access*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AXMKz5Ti71c5MW-U3Stt",
+    "_type": "search",
+    "_source": {
+      "title": "SOAP - UserRoleAutoRequestService",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "cs_method",
+        "cs_uri",
+        "HTTPResponseCode",
+        "time_taken",
+        "type"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\n  \"index\": \"AXLhq9_b71c5MW-U28Bw\",\n  \"highlightAll\": true,\n  \"version\": true,\n  \"query\": {\n    \"query_string\": {\n      \"query\": \"type:ServiceServer*access* AND cs_uri:*userRoleAutoRequest*\",\n      \"analyze_wildcard\": true\n    }\n  },\n  \"filter\": []\n}"
+      }
+    }
+  },
+  {
+    "_id": "AXL4QuX371c5MW-U3Mj-",
+    "_type": "search",
+    "_source": {
+      "title": "Status : INCIDENT_ERROR",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "userId",
+        "IncidentID",
+        "LogMessage",
+        "type",
+        "MessageType"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"AXLhq9_b71c5MW-U28Bw\",\"highlightAll\":true,\"version\":true,\"query\":{\"query_string\":{\"query\":\"INCIDENT_ERROR\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AXL4JI2L71c5MW-U3Mix",
+    "_type": "search",
+    "_source": {
+      "title": "Status : ERROR",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "LogMessage",
+        "userId",
+        "type"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"AXLhq9_b71c5MW-U28Bw\",\"highlightAll\":true,\"version\":true,\"query\":{\"query_string\":{\"query\":\"MessageType: ERROR\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AXL4KNBF71c5MW-U3Mi3",
+    "_type": "search",
+    "_source": {
+      "title": "Status : SEVERE",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "LogMessage",
+        "userId",
+        "type"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"AXLhq9_b71c5MW-U28Bw\",\"highlightAll\":true,\"version\":true,\"query\":{\"query_string\":{\"query\":\"MessageType: SEVERE\"}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AXMruSGC71c5MW-U3ZQJ",
+    "_type": "search",
+    "_source": {
+      "title": "SOAP - DataRoleService",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "cs_method",
+        "cs_uri",
+        "HTTPResponseCode",
+        "time_taken",
+        "type"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"AXLhq9_b71c5MW-U28Bw\",\"highlightAll\":true,\"version\":true,\"query\":{\"query_string\":{\"query\":\"type:ServiceServer*access* AND cs_uri:*DataRoleService*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AXMLn-Ta71c5MW-U3SzP",
+    "_type": "search",
+    "_source": {
+      "title": "ECID",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "userId",
+        "cs_uri",
+        "LogMessage",
+        "type"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"AXLhq9_b71c5MW-U28Bw\",\"highlightAll\":true,\"version\":true,\"query\":{\"query_string\":{\"query\":\"0000NC72Xyk7i4GpIwh8if1Uyu3000001r\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AXMKwmaf71c5MW-U3SlJ",
+    "_type": "search",
+    "_source": {
+      "title": "Messages containing \"oracle apps hcm users\"",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "LogMessage",
+        "APP",
+        "type"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"AXLhq9_b71c5MW-U28Bw\",\"highlightAll\":true,\"version\":true,\"query\":{\"query_string\":{\"query\":\"message: *oracle*apps*hcm*users*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AXObENjO71c5MW-U5r3A",
+    "_type": "search",
+    "_source": {
+      "title": "Exceptions",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "cs_uri",
+        "LogMessage",
+        "type"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"AXLhq9_b71c5MW-U28Bw\",\"highlightAll\":true,\"version\":true,\"query\":{\"query_string\":{\"query\":\"message:*Exception*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AXLjp_b771c5MW-U2_lv",
+    "_type": "visualization",
+    "_source": {
+      "title": "Top 10 Requests coming into ESS_SOA Server",
+      "visState": "{\"title\":\"Top 10 Requests coming into ESS_SOA Server\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false,\"type\":\"pie\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"cs_uri.keyword\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"cs_uri\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"AXLhq9_b71c5MW-U28Bw\",\"query\":{\"query_string\":{\"query\":\"type:ESS*access*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AXLjpQEt71c5MW-U2_ll",
+    "_type": "visualization",
+    "_source": {
+      "title": "Requests coming into ServiceServer",
+      "visState": "{\"title\":\"Requests coming into ServiceServer\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false,\"type\":\"pie\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Count\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"cs_uri.keyword\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"cs_uri\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"AXLhq9_b71c5MW-U28Bw\",\"query\":{\"query_string\":{\"query\":\"type:Service*access*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AXLnKNaF71c5MW-U3B0R",
+    "_type": "visualization",
+    "_source": {
+      "title": "Performance : userAccounts",
+      "visState": "{\n  \"title\": \"UserAccounts REST Performance\",\n  \"type\": \"pie\",\n  \"params\": {\n    \"addTooltip\": true,\n    \"addLegend\": true,\n    \"legendPosition\": \"right\",\n    \"isDonut\": true,\n    \"type\": \"pie\"\n  },\n  \"aggs\": [\n    {\n      \"id\": \"1\",\n      \"enabled\": true,\n      \"type\": \"count\",\n      \"schema\": \"metric\",\n      \"params\": {}\n    },\n    {\n      \"id\": \"2\",\n      \"enabled\": true,\n      \"type\": \"histogram\",\n      \"schema\": \"segment\",\n      \"params\": {\n        \"field\": \"time_taken\",\n        \"interval\": 0.1,\n        \"extended_bounds\": {}\n      }\n    },\n    {\n      \"id\": \"3\",\n      \"enabled\": true,\n      \"type\": \"terms\",\n      \"schema\": \"segment\",\n      \"params\": {\n        \"field\": \"cs_method\",\n        \"size\": 5,\n        \"order\": \"desc\",\n        \"orderBy\": \"_term\"\n      }\n    },\n    {\n      \"id\": \"4\",\n      \"enabled\": true,\n      \"type\": \"terms\",\n      \"schema\": \"segment\",\n      \"params\": {\n        \"field\": \"cs_uri.keyword\",\n        \"size\": 5,\n        \"order\": \"desc\",\n        \"orderBy\": \"1\",\n        \"customLabel\": \"URI\"\n      }\n    }\n  ],\n  \"listeners\": {}\n}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "AXLjizUY71c5MW-U2_hI",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\n  \"filter\": []\n}"
+      }
+    }
+  },
+  {
+    "_id": "AXLn0rZl71c5MW-U3B4x",
+    "_type": "visualization",
+    "_source": {
+      "title": "Performance : userAccountsLOV",
+      "visState": "{\"title\":\"Performance : userAccountsLOV\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true,\"type\":\"pie\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"time_taken\",\"interval\":0.1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"cs_method\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"_term\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"cs_uri.keyword\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "AXLn0Jwm71c5MW-U3B4u",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AXLsBvQI71c5MW-U3DSi",
+    "_type": "visualization",
+    "_source": {
+      "title": "ServiceServer : Top 10 Requests by Time Taken",
+      "visState": "{\n  \"title\": \"ServiceServer : Top 10 by Time Taken\",\n  \"type\": \"histogram\",\n  \"params\": {\n    \"grid\": {\n      \"categoryLines\": false,\n      \"style\": {\n        \"color\": \"#eee\"\n      }\n    },\n    \"categoryAxes\": [\n      {\n        \"id\": \"CategoryAxis-1\",\n        \"type\": \"category\",\n        \"position\": \"left\",\n        \"show\": true,\n        \"style\": {},\n        \"scale\": {\n          \"type\": \"linear\"\n        },\n        \"labels\": {\n          \"show\": true,\n          \"rotate\": 0,\n          \"filter\": false,\n          \"truncate\": 200\n        },\n        \"title\": {\n          \"text\": \"URI\"\n        }\n      }\n    ],\n    \"valueAxes\": [\n      {\n        \"id\": \"ValueAxis-1\",\n        \"name\": \"LeftAxis-1\",\n        \"type\": \"value\",\n        \"position\": \"bottom\",\n        \"show\": true,\n        \"style\": {},\n        \"scale\": {\n          \"type\": \"linear\",\n          \"mode\": \"normal\"\n        },\n        \"labels\": {\n          \"show\": true,\n          \"rotate\": 75,\n          \"filter\": true,\n          \"truncate\": 100\n        },\n        \"title\": {\n          \"text\": \"Time Taken\"\n        }\n      }\n    ],\n    \"seriesParams\": [\n      {\n        \"show\": true,\n        \"type\": \"histogram\",\n        \"mode\": \"normal\",\n        \"data\": {\n          \"label\": \"Time Taken\",\n          \"id\": \"1\"\n        },\n        \"valueAxis\": \"ValueAxis-1\",\n        \"drawLinesBetweenPoints\": true,\n        \"showCircles\": true\n      }\n    ],\n    \"addTooltip\": true,\n    \"addLegend\": true,\n    \"legendPosition\": \"right\",\n    \"times\": [],\n    \"addTimeMarker\": false,\n    \"type\": \"horizontal_bar\"\n  },\n  \"aggs\": [\n    {\n      \"id\": \"1\",\n      \"enabled\": true,\n      \"type\": \"max\",\n      \"schema\": \"metric\",\n      \"params\": {\n        \"field\": \"time_taken\",\n        \"customLabel\": \"Time Taken\"\n      }\n    },\n    {\n      \"id\": \"2\",\n      \"enabled\": true,\n      \"type\": \"terms\",\n      \"schema\": \"segment\",\n      \"params\": {\n        \"field\": \"cs_uri.keyword\",\n        \"size\": 10,\n        \"order\": \"desc\",\n        \"orderBy\": \"1\",\n        \"customLabel\": \"URI\"\n      }\n    }\n  ],\n  \"listeners\": {}\n}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "AXLpblXC71c5MW-U3Cbp",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\n  \"filter\": []\n}"
+      }
+    }
+  },
+  {
+    "_id": "AXLsEnVq71c5MW-U3DS2",
+    "_type": "visualization",
+    "_source": {
+      "title": "UIServer : Top 10 Requests by Time Taken",
+      "visState": "{\"title\":\"UIServer : Top 10 Requests by Time Taken\",\"type\":\"histogram\",\"params\":{\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":200},\"title\":{\"text\":\"URI\"}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":75,\"filter\":true,\"truncate\":100},\"title\":{\"text\":\"Time Taken\"}}],\"seriesParams\":[{\"show\":true,\"type\":\"histogram\",\"mode\":\"normal\",\"data\":{\"label\":\"Time Taken\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"type\":\"horizontal_bar\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"max\",\"schema\":\"metric\",\"params\":{\"field\":\"time_taken\",\"customLabel\":\"Time Taken\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"cs_uri.keyword\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"URI\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "AXLsDo3U71c5MW-U3DSt",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AXLpcDMH71c5MW-U3Cbs",
+    "_type": "visualization",
+    "_source": {
+      "title": "ServiceServer : Top 10 Requests by Count",
+      "visState": "{\"title\":\"ServiceServer : Top 10 Requests by Count\",\"type\":\"histogram\",\"params\":{\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":200},\"title\":{\"text\":\"URI\"}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":75,\"filter\":true,\"truncate\":100},\"title\":{\"text\":\"Count\"}}],\"seriesParams\":[{\"show\":true,\"type\":\"histogram\",\"mode\":\"normal\",\"data\":{\"label\":\"Count\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"type\":\"horizontal_bar\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"cs_uri.keyword\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"URI\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "AXLpblXC71c5MW-U3Cbp",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AXLsEbRS71c5MW-U3DS0",
+    "_type": "visualization",
+    "_source": {
+      "title": "UIServer : Top 10 Requests by Count",
+      "visState": "{\"title\":\"UIServer : Top 10 Requests by Count\",\"type\":\"histogram\",\"params\":{\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":200},\"title\":{\"text\":\"URI\"}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":75,\"filter\":true,\"truncate\":100},\"title\":{\"text\":\"Count\"}}],\"seriesParams\":[{\"show\":true,\"type\":\"histogram\",\"mode\":\"normal\",\"data\":{\"label\":\"Count\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"type\":\"horizontal_bar\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"cs_uri.keyword\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"URI\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "AXLsDo3U71c5MW-U3DSt",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AXLsF82B71c5MW-U3DTR",
+    "_type": "visualization",
+    "_source": {
+      "title": "ESS_SOAServer : Top 10 Requests by Time Taken",
+      "visState": "{\"title\":\"ESS_SOAServer : Top 10 Requests by Time Taken\",\"type\":\"histogram\",\"params\":{\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":200},\"title\":{\"text\":\"URI\"}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":75,\"filter\":true,\"truncate\":100},\"title\":{\"text\":\"Time Taken\"}}],\"seriesParams\":[{\"show\":true,\"type\":\"histogram\",\"mode\":\"normal\",\"data\":{\"label\":\"Time Taken\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"type\":\"horizontal_bar\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"max\",\"schema\":\"metric\",\"params\":{\"field\":\"time_taken\",\"customLabel\":\"Time Taken\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"cs_uri.keyword\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"URI\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "AXLsFTgV71c5MW-U3DS7",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AXLsFvmP71c5MW-U3DTG",
+    "_type": "visualization",
+    "_source": {
+      "title": "ESS_SOAServer : Top 10 Requests by Count",
+      "visState": "{\"title\":\"ESS_SOAServer : Top 10 Requests by Count\",\"type\":\"histogram\",\"params\":{\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":200},\"title\":{\"text\":\"URI\"}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":75,\"filter\":true,\"truncate\":100},\"title\":{\"text\":\"Count\"}}],\"seriesParams\":[{\"show\":true,\"type\":\"histogram\",\"mode\":\"normal\",\"data\":{\"label\":\"Count\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"type\":\"horizontal_bar\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"cs_uri.keyword\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"URI\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "AXLsFTgV71c5MW-U3DS7",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AXL2wbn171c5MW-U3MZg",
+    "_type": "visualization",
+    "_source": {
+      "title": "RequestType : userAccountsLOV",
+      "visState": "{\n  \"title\": \"RequestType : userAccountsLOV\",\n  \"type\": \"metric\",\n  \"params\": {\n    \"addTooltip\": true,\n    \"addLegend\": false,\n    \"type\": \"gauge\",\n    \"gauge\": {\n      \"verticalSplit\": false,\n      \"autoExtend\": false,\n      \"percentageMode\": false,\n      \"gaugeType\": \"Metric\",\n      \"gaugeStyle\": \"Full\",\n      \"backStyle\": \"Full\",\n      \"orientation\": \"vertical\",\n      \"colorSchema\": \"Green to Red\",\n      \"gaugeColorMode\": \"None\",\n      \"useRange\": false,\n      \"colorsRange\": [\n        {\n          \"from\": 0,\n          \"to\": 100\n        }\n      ],\n      \"invertColors\": false,\n      \"labels\": {\n        \"show\": true,\n        \"color\": \"black\"\n      },\n      \"scale\": {\n        \"show\": false,\n        \"labels\": false,\n        \"color\": \"#333\",\n        \"width\": 2\n      },\n      \"type\": \"simple\",\n      \"style\": {\n        \"fontSize\": \"20\",\n        \"bgColor\": false,\n        \"labelColor\": false,\n        \"subText\": \"\"\n      }\n    }\n  },\n  \"aggs\": [\n    {\n      \"id\": \"1\",\n      \"enabled\": true,\n      \"type\": \"count\",\n      \"schema\": \"metric\",\n      \"params\": {}\n    },\n    {\n      \"id\": \"2\",\n      \"enabled\": true,\n      \"type\": \"terms\",\n      \"schema\": \"group\",\n      \"params\": {\n        \"field\": \"cs_method\",\n        \"size\": 10,\n        \"order\": \"desc\",\n        \"orderBy\": \"1\"\n      }\n    }\n  ],\n  \"listeners\": {}\n}",
+      "uiStateJSON": "{\n  \"vis\": {\n    \"defaultColors\": {\n      \"0 - 100\": \"rgb(0,104,55)\"\n    }\n  }\n}",
+      "description": "",
+      "savedSearchId": "AXLn0Jwm71c5MW-U3B4u",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\n  \"filter\": []\n}"
+      }
+    }
+  },
+  {
+    "_id": "AXL2wPqt71c5MW-U3MZe",
+    "_type": "visualization",
+    "_source": {
+      "title": "RequestType : userAccounts",
+      "visState": "{\n  \"title\": \"RequestType : userAccounts\",\n  \"type\": \"metric\",\n  \"params\": {\n    \"addTooltip\": true,\n    \"addLegend\": false,\n    \"type\": \"gauge\",\n    \"gauge\": {\n      \"verticalSplit\": false,\n      \"autoExtend\": false,\n      \"percentageMode\": false,\n      \"gaugeType\": \"Metric\",\n      \"gaugeStyle\": \"Full\",\n      \"backStyle\": \"Full\",\n      \"orientation\": \"vertical\",\n      \"colorSchema\": \"Green to Red\",\n      \"gaugeColorMode\": \"None\",\n      \"useRange\": false,\n      \"colorsRange\": [\n        {\n          \"from\": 0,\n          \"to\": 100\n        }\n      ],\n      \"invertColors\": false,\n      \"labels\": {\n        \"show\": true,\n        \"color\": \"black\"\n      },\n      \"scale\": {\n        \"show\": false,\n        \"labels\": false,\n        \"color\": \"#333\",\n        \"width\": 2\n      },\n      \"type\": \"simple\",\n      \"style\": {\n        \"fontSize\": \"20\",\n        \"bgColor\": false,\n        \"labelColor\": false,\n        \"subText\": \"\"\n      }\n    }\n  },\n  \"aggs\": [\n    {\n      \"id\": \"1\",\n      \"enabled\": true,\n      \"type\": \"count\",\n      \"schema\": \"metric\",\n      \"params\": {}\n    },\n    {\n      \"id\": \"2\",\n      \"enabled\": true,\n      \"type\": \"terms\",\n      \"schema\": \"group\",\n      \"params\": {\n        \"field\": \"cs_method\",\n        \"size\": 10,\n        \"order\": \"desc\",\n        \"orderBy\": \"1\"\n      }\n    }\n  ],\n  \"listeners\": {}\n}",
+      "uiStateJSON": "{\n  \"vis\": {\n    \"defaultColors\": {\n      \"0 - 100\": \"rgb(0,104,55)\"\n    }\n  }\n}",
+      "description": "",
+      "savedSearchId": "AXLjizUY71c5MW-U2_hI",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\n  \"filter\": []\n}"
+      }
+    }
+  },
+  {
+    "_id": "AXL2rvS571c5MW-U3MY3",
+    "_type": "visualization",
+    "_source": {
+      "title": "RequestType : scim",
+      "visState": "{\"title\":\"RequestType : scim\",\"type\":\"metric\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"gauge\",\"gauge\":{\"verticalSplit\":false,\"autoExtend\":false,\"percentageMode\":false,\"gaugeType\":\"Metric\",\"gaugeStyle\":\"Full\",\"backStyle\":\"Full\",\"orientation\":\"vertical\",\"colorSchema\":\"Green to Red\",\"gaugeColorMode\":\"None\",\"useRange\":false,\"colorsRange\":[{\"from\":0,\"to\":100}],\"invertColors\":false,\"labels\":{\"show\":true,\"color\":\"black\"},\"scale\":{\"show\":false,\"labels\":false,\"color\":\"#333\",\"width\":2},\"type\":\"simple\",\"style\":{\"fontSize\":\"20\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\"},\"minAngle\":0,\"maxAngle\":6.283185307179586}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"cs_method\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 100\":\"rgb(0,104,55)\"}}}",
+      "description": "",
+      "savedSearchId": "AXLhwRyb71c5MW-U28B4",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AXLnzCT-71c5MW-U3B4n",
+    "_type": "visualization",
+    "_source": {
+      "title": "Performance : scim",
+      "visState": "{\"title\":\"Performance : scim\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true,\"type\":\"pie\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"time_taken\",\"interval\":0.1,\"extended_bounds\":{},\"customLabel\":\"Time Taken\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"cs_method\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"_term\",\"customLabel\":\"Method\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"cs_uri.keyword\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"URI\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "AXLhwRyb71c5MW-U28B4",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AXMK1NAy71c5MW-U3St3",
+    "_type": "visualization",
+    "_source": {
+      "title": "Performance : userRoleAutoRequestService",
+      "visState": "{\"title\":\"Performance : userRoleAutoRequestService\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true,\"type\":\"pie\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"time_taken\",\"interval\":0.1,\"extended_bounds\":{},\"customLabel\":\"Time Taken\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"cs_method\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Method\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"cs_uri.keyword\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"URI\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "AXMKz5Ti71c5MW-U3Stt",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AXMK2iUv71c5MW-U3SuA",
+    "_type": "visualization",
+    "_source": {
+      "title": "RequestType : userRoleAutoRequestService",
+      "visState": "{\n  \"title\": \"RequestType : userRoleAutoRequestService\",\n  \"type\": \"metric\",\n  \"params\": {\n    \"addTooltip\": true,\n    \"addLegend\": false,\n    \"type\": \"gauge\",\n    \"gauge\": {\n      \"verticalSplit\": false,\n      \"autoExtend\": false,\n      \"percentageMode\": false,\n      \"gaugeType\": \"Metric\",\n      \"gaugeStyle\": \"Full\",\n      \"backStyle\": \"Full\",\n      \"orientation\": \"vertical\",\n      \"colorSchema\": \"Green to Red\",\n      \"gaugeColorMode\": \"None\",\n      \"useRange\": false,\n      \"colorsRange\": [\n        {\n          \"from\": 0,\n          \"to\": 100\n        }\n      ],\n      \"invertColors\": false,\n      \"labels\": {\n        \"show\": true,\n        \"color\": \"black\"\n      },\n      \"scale\": {\n        \"show\": false,\n        \"labels\": false,\n        \"color\": \"#333\",\n        \"width\": 2\n      },\n      \"type\": \"simple\",\n      \"style\": {\n        \"fontSize\": 20,\n        \"bgColor\": false,\n        \"labelColor\": false,\n        \"subText\": \"\"\n      }\n    }\n  },\n  \"aggs\": [\n    {\n      \"id\": \"1\",\n      \"enabled\": true,\n      \"type\": \"count\",\n      \"schema\": \"metric\",\n      \"params\": {}\n    },\n    {\n      \"id\": \"2\",\n      \"enabled\": true,\n      \"type\": \"terms\",\n      \"schema\": \"group\",\n      \"params\": {\n        \"field\": \"cs_method\",\n        \"size\": 10,\n        \"order\": \"desc\",\n        \"orderBy\": \"1\",\n        \"customLabel\": \"Method\"\n      }\n    }\n  ],\n  \"listeners\": {}\n}",
+      "uiStateJSON": "{\n  \"vis\": {\n    \"defaultColors\": {\n      \"0 - 100\": \"rgb(0,104,55)\"\n    }\n  }\n}",
+      "description": "",
+      "savedSearchId": "AXMKz5Ti71c5MW-U3Stt",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\n  \"filter\": []\n}"
+      }
+    }
+  },
+  {
+    "_id": "AXMr0QLa71c5MW-U3ZQ5",
+    "_type": "visualization",
+    "_source": {
+      "title": "RequestType : DataRoleService",
+      "visState": "{\"title\":\"RequestType : DataRoleService\",\"type\":\"metric\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"gauge\",\"gauge\":{\"verticalSplit\":false,\"autoExtend\":false,\"percentageMode\":false,\"gaugeType\":\"Metric\",\"gaugeStyle\":\"Full\",\"backStyle\":\"Full\",\"orientation\":\"vertical\",\"colorSchema\":\"Green to Red\",\"gaugeColorMode\":\"None\",\"useRange\":false,\"colorsRange\":[{\"from\":0,\"to\":100}],\"invertColors\":false,\"labels\":{\"show\":true,\"color\":\"black\"},\"scale\":{\"show\":false,\"labels\":false,\"color\":\"#333\",\"width\":2},\"type\":\"simple\",\"style\":{\"fontSize\":\"20\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\"}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"cs_method\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 100\":\"rgb(0,104,55)\"}}}",
+      "description": "",
+      "savedSearchId": "AXMruSGC71c5MW-U3ZQJ",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AXMwN57-71c5MW-U3aSa",
+    "_type": "visualization",
+    "_source": {
+      "title": "Performance : HCM Rest API",
+      "visState": "{\"title\":\"Performance : HCM Rest API\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true,\"type\":\"pie\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"time_taken\",\"interval\":0.1,\"extended_bounds\":{},\"customLabel\":\"Time Taken\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"cs_method\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Method\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"cs_uri.keyword\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"URI\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "AXLhvBzF71c5MW-U28B3",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AXMrzOAU71c5MW-U3ZQx",
+    "_type": "visualization",
+    "_source": {
+      "title": "Performance : DataRoleService",
+      "visState": "{\"title\":\"Performance : DataRoleService\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true,\"type\":\"pie\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"time_taken\",\"interval\":0.1,\"extended_bounds\":{},\"customLabel\":\"Time Taken\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"cs_method\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Method\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"cs_uri.keyword\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"URI\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "AXMruSGC71c5MW-U3ZQJ",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AXMwOvQV71c5MW-U3aSn",
+    "_type": "visualization",
+    "_source": {
+      "title": "Performance : HCM SOAP Services",
+      "visState": "{\"title\":\"Performance : HCM SOAP Services\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true,\"type\":\"pie\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"time_taken\",\"interval\":0.1,\"extended_bounds\":{},\"customLabel\":\"Time Taken\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"cs_method\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Method\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"cs_uri.keyword\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"URI\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "AXLhtTdZ71c5MW-U28B2",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  }
+]
